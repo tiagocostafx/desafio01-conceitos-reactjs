@@ -1,0 +1,40 @@
+.inputForm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: calc(0px - 3.7rem);
+}
+
+.inputForm textarea {
+  width: 100%;
+  background: var(--gray-500);
+  border: 0;
+  resize: none;
+  height: 3.375rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: var(--gray-100);
+}
+
+.inputForm button {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  border: 0;
+  background: var(--blueDark);
+  color: var(--gray-100);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+.inputForm button[type="submit"]:not(:disabled):hover {
+  background: var(--blue);
+}
+
+.inputForm button span {
+  margin-right: 0.5rem;
+}

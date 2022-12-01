@@ -1,0 +1,45 @@
+.wrapper {
+  max-width: 46rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.taskHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.taskHeader span {
+  font-size: 0.875rem;
+}
+
+.createdTasks {
+  color: var(--blue);
+}
+
+.concludedTasks {
+  color: var(--purple);
+}
+
+.taskHeader label {
+  font-size: 0.75rem;
+  background: var(--gray-400);
+  padding: 0.125rem 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.noTasks {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5.5rem;
+  color: var(--gray-300);
+}
+
+.noTasks p {
+  margin-top: 1rem;
+  font-weight: bold;
+}
